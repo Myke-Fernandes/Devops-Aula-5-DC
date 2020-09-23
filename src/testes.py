@@ -5,7 +5,7 @@ erroInicializar = False
 jogo = jogovelha.inicializar()
 
 if len(jogo) != 3:
-	erro Inicializar = True
+	erroInicializar = True
 else:
 	for linha in jogo:
 		if len(linha) != 3:
